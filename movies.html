@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- css  -->
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/netflix.css">
+</head>
+<body>
+	<header>
+		<div class="netflixLogo">
+			<a id="logo"  href="./home.html"><img class="logo-home" src="./images/LOGO.png" alt="Logo-Image"></a>
+		</div>      
+		<nav class="main-nav">                
+			<a href="./home.html">Home</a>
+			<a href="./tv-shows.html">TV Shows</a>
+			<a href="./movies.html">Movies</a>
+			<a href="./search.html">Search</a>
+			<a href="#">Recently Added</a>
+			<a target="#" href=""> Language</a>        
+		</nav>
+		<nav class="sub-nav">
+			<a href="./notification.html"><i class="ri-notification-2-line"></i></a>
+			<a href="./account.html">Account</a> 
+			<div class="menulogo" onclick="toggleCartt()"><i class="ri-menu-line text-white"></i></div></nav>      
+		</nav>      
+	</header>
+		  <!-- sidebar  -->
+		<div class="sidebar">
+			<div class="navbar-sidebar">
+				<ul>
+					<li><a class="active" href="index.html">Home</a></li>
+					<li><a href="./tv-shows.html">TV Shows</a></li>
+					<li><a href="movies.html">Movies</a></li>
+					<li><a href="./search.html">Search</a></li>
+					<li><a href="#">Recently Added</a></li>
+					<li><a  href="language.html"> Language</a></li>
+					<li><a href="./account.html">Account</a> </li>
+					<li><a href="./notification.html">Notification</a></li>
+					<li><a href="./index.html"></a>Sign Up</li>
+				</ul>
+			</div>
+			<div class="d-inline closse" onclick="toggleCartt()"><i class="ri-close-circle-line text-white"></i></div>
+		</div>
+		<!-- sidebar end  -->
+	<div class="home-main-banner" style="background-image: url(./images/banner-two.webp);background-repeat: no-repeat;background-size: 100% auto;background-position: center;background-repeat: no-repeat;background-size: cover;height: -webkit-fill-available;">
+		<div class="container-main">
+			<img class="home-banner-logo" src="./images/movies-.webp" alt="">
+			<p class="text-white about-movie-banner mt-2" style="max-width: 450px;">A criminal mastermind who goes by "The Professor" has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain.</p>
+			<div class="row">
+				<div class="col-lg-6 mt-4">
+					<button class="btn play-btn-home  mr-4">Play</button>
+					<button class="btn more-info">More info</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-main ">
+		<div class="row">
+			<div class="col-lg-12">
+				<h3 class="text-white heading-main ">Populer on Zinea</h3>
+			</div>
+		</div>
+		<swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" slides-per-view="10">
+			<swiper-slide class="">
+				<swiper-slide  class="">
+					<div class="slider-movie-dv">
+						<img class="small-image-thubnail"  src="./images/spiderman.webp" alt="">
+						<h4 class="text-white movie-name">Spiderman</h4>
+					</div>
+				</swiper-slide>
+			</swiper-slide>
+			<swiper-slide  class="">
+				<div class="slider-movie-dv">
+					<img class="small-image-thubnail"  src="./images/spiderman.webp" alt="">
+					<h4 class="text-white movie-name">Spiderman</h4>
+				</div>
+			</swiper-slide>
+			<swiper-slide  class="">
+				<div class="slider-movie-dv">
+					<img class="small-image-thubnail"  src="./images/spiderman.webp" alt="">
+					<h4 class="text-white movie-name">Spiderman</h4>
+				</div>
+			</swiper-slide>
+			<swiper-slide  class="">
+				<div class="slider-movie-dv">
+					<img class="small-image-thubnail"  src="./images/spiderman.webp" alt="">
+					<h4 class="text-white movie-name">Spiderman</h4>
+				</div>
+			</swiper-slide>
+			<swiper-slide  class="">
+				<div class="slider-movie-dv">
+					<img class="small-image-thubnail"  src="./images/spiderman.webp" alt="">
+					<h4 class="text-white movie-name">Spiderman</h4>
+				</div>
+			</swiper-slide>
+			<swiper-slide  class="">
+				<div class="slider-movie-dv">
+					<img class="small-image-thubnail"  src="./images/spiderman.webp" alt="">
+					<h4 class="text-white movie-name">Spiderman</h4>
+				</div>
+			</swiper-slide>
+			<swiper-slide  class="">
+				<div class="slider-movie-dv">
+					<img class="small-image-thubnail"  src="./images/spiderman.webp" alt="">
+					<h4 class="text-white movie-name">Spiderman</h4>
+				</div>
+			</swiper-slide>
+			<swiper-slide  class="">
+				<div class="slider-movie-dv">
+					<img class="small-image-thubnail"  src="./images/spiderman.webp" alt="">
+					<h4 class="text-white movie-name">Spiderman</h4>
+				</div>
+			</swiper-slide>
+			<swiper-slide  class="">
+				<div class="slider-movie-dv">
+					<img class="small-image-thubnail"  src="./images/spiderman.webp" alt="">
+					<h4 class="text-white movie-name">Spiderman</h4>
+				</div>
+			</swiper-slide>
+			<swiper-slide  class="">
+				<div class="slider-movie-dv">
+					<img class="small-image-thubnail"  src="./images/spiderman.webp" alt="">
+					<h4 class="text-white movie-name">Spiderman</h4>
+				</div>
+			</swiper-slide>
+			<swiper-slide  class="">
+				<div class="slider-movie-dv">
+					<img class="small-image-thubnail"  src="./images/spiderman.webp" alt="">
+					<h4 class="text-white movie-name">Spiderman</h4>
+				</div>
+			</swiper-slide>
+	  </swiper-container>
+	</div>
+
+	<!-- Footer -->
+	<footer class=" text-lg-start text-white ">
+		<section class="d-flex  p-1 ">
+			<div>
+				<a href="" class="me-4 ">
+					<i class="fab fa-facebook-f"></i>
+				</a>
+				<a href="" class="me-4 ">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a href="" class="me-4 ">
+					<i class="fab fa-google"></i>
+				</a>
+				<a href="" class="me-4 ">
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a href="" class="me-4 ">
+					<i class="fab fa-linkedin"></i>
+				</a>
+				<a href="" class="me-4 ">
+					<i class="fab fa-github"></i>
+				</a>
+			</div>
+		</section>
+		<section class="">
+			<div class="container  text-md-start mt-5">
+				<div class="row mt-3">
+					<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+						<p> Audio Description</p>
+						<p> Legal notice</p>
+						<p> Audio Description</p>
+					</div>
+					<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+						<p> <a href="#!" class="">Help Center</a> </p>
+						<p> <a href="#!" class="">Jobs</a> </p>
+						<p> <a href="#!" class="">Cookie</a></p>
+					</div>
+					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+						<p> <a href="#!" class="">Gift Cards</a> </p>
+						<p> <a href="#!" class="">Terms of use</a> </p>
+						<p>  <a href="#!" class="">Corparate</a>  </p>
+					</div>
+					<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+						<p><i class="fas fa-home me-3"></i>Media Center</p>
+						<p>Privacy</p>
+						<p>Contact Us</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>
+	<!-- Footer end -->
+	<script>
+    function toggleCartt(){
+  document.querySelector('.sidebar').classList.toggle('open-cart');
+  }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
